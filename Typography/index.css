@@ -1,0 +1,91 @@
+@import url("../main.css");
+@import url("../utility.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--darl-grey);
+  color: var(--white);
+}
+
+/* Typography Styles: Start */
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+/* Text Classes */
+.text-600 {
+  font-weight: 600;
+}
+
+.text-xl {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.text-large {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-small {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+/* Typography Styles: End */
+
+/* Documation Classes */
+#typography {
+  padding: 2rem;
+}
+.center-div {
+  text-align: center;
+  margin-top: var(--spacing-4);
+}
+
+.typo-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 2rem 0;
+  border: 2px solid var(--action);
+  align-items: baseline;
+  border-radius: 00.3rem;
+  flex-direction: column;
+}

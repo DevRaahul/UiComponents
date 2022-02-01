@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("./Typography/index.css");
+@import url("./utility.css");
+
+:root {
+  --primary-color: #ff3b30;
+  --secondary-color: #fff6ea;
+  --bg-color: #f7f7f7;
+  --success: #059669;
+  --error: #dc2626;
+  --warning: #d97706;
+  --black: #282828;
+  --white: #fff;
+  --grey: #9a9a9a;
+  --action: #3b82f6;
+  --darl-grey: #444444;
+  --spacing-1: 0.5rem;
+  --spacing-2: 0.625rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+}
+
+/* Default style reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--darl-grey);
+}
+
+.icon-logo {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/* links */
+.logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-title {
+  color: var(--action);
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
+}
+
+a:hover {
+  color: var(--action);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+/* Search Input */
+input[type="search"] {
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  box-shadow: none;
+  padding: 0.5rem;
+  width: 35rem;
+}
+
+input[type="search"]:focus {
+  outline: none;
+}
+
+/* Main section */
+.main-center {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#home-section {
+  margin-top: 2rem;
+}
+
+.mb-text {
+  margin-bottom: var(--spacing-2);
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem 4rem;
+  color: #fff;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: 1;
+}
+
+.hero-img {
+  object-fit: cover;
+  padding: 0 4rem 4rem 4rem;
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+.info-section {
+  display: flex;
+}
