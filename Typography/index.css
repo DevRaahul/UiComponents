@@ -80,12 +80,12 @@ h5 {
 }
 
 .typo-container {
+  align-items: baseline;
+  border: 2px solid var(--action);
+  border-radius: 00.3rem;
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
-  margin: 2rem 0;
-  border: 2px solid var(--action);
-  align-items: baseline;
-  border-radius: 00.3rem;
   flex-direction: column;
+  margin: 2rem 0;
+  padding: 1rem;
 }
