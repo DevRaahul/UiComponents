@@ -1,40 +1,6 @@
 /* Common css classes */
 @import url("./main.css");
 
-.btn {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin: 1.25rem 1rem;
-  border-radius: 0.3rem;
-  background-color: transparent;
-  border: none;
-  font-size: 1rem;
-  text-align: center;
-  outline: none;
-  color: var(--white);
-  cursor: pointer;
-}
-
-.btn-primary {
-  border: 1px solid var(--action);
-  font-weight: 100;
-}
-
-.btn-primary:hover {
-  border: 1px solid var(--white);
-}
-
-.btn-secondary {
-  background-color: var(--action);
-  color: var(--white);
-}
-
-.btn-secondary:hover {
-  color: var(--action);
-  background-color: var(--white);
-}
-
 /* Spacer classes */
 .mt-1 {
   margin-top: var(--spacing-4);
@@ -66,4 +32,15 @@
 
 .pr-1 {
   padding-right: var(--spacing-4);
+}
+
+/* code snippet class */
+.code-snipet-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 300px;
+  padding: 1rem 0;
+  background-color: #fafafa;
+  margin: 2rem 0;
+  overflow: auto;
 }

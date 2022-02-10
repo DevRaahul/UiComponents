@@ -1,16 +1,5 @@
 @import url("../main.css");
 @import url("../utility.css");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--darl-grey);
-  color: var(--white);
-}
 
 /* Typography Styles: Start */
 h1 {
@@ -69,23 +58,3 @@ h5 {
   line-height: 1rem;
 }
 /* Typography Styles: End */
-
-/* Documation Classes */
-#typography {
-  padding: 2rem;
-}
-.center-div {
-  text-align: center;
-  margin-top: var(--spacing-4);
-}
-
-.typo-container {
-  align-items: baseline;
-  border: 2px solid var(--action);
-  border-radius: 00.3rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin: 2rem 0;
-  padding: 1rem;
-}
