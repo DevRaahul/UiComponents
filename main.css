@@ -11,6 +11,10 @@
   --white: #fff;
   --secondary-white: #ccd1e4;
   --black: #000000;
+  --grey: #333;
+  --error-color: #ff0000;
+  --warning-color: #ff7b00;
+  --success-color: #104910;
   --spacing-1: 0.5rem;
   --spacing-2: 0.625rem;
   --spacing-3: 0.75rem;
