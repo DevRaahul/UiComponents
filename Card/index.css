@@ -1,0 +1,82 @@
+@import url("../main.css");
+@import url("../utility.css");
+@import url("../Typography/index.css");
+@import url("../Button/index.css");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  background: transparent;
+  max-width: 18.75rem;
+  width: auto;
+  border: 1px solid var(--white);
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15.75rem;
+  padding: 1rem 1rem;
+  background: transparent;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.card-description {
+  padding-top: 1rem;
+}
+
+.card-description > p {
+  text-align: center;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.horizontal-card {
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  background: transparent;
+  max-width: 43.75rem;
+  width: 100%;
+  border: 1px solid var(--white);
+}
+
+.horizontal-card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15.75rem;
+  background: transparent;
+}
+
+.horizontal-card-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white);
+  color: var(--black);
+  width: 100%;
+}
+
+.horizontal-card-action {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
