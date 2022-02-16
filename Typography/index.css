@@ -1,0 +1,65 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+/* Typography Styles: Start */
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+/* Text Classes */
+.text-600 {
+  font-weight: 600;
+}
+
+.text-xxl {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.text-xl {
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.text-large {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-small {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+/* Typography Styles: End */
