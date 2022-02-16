@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("./Typography/index.css");
+@import url("./utility.css");
+@import url("./Button/ButtonComponent.css");
+
+:root {
+  --primary-color: #ff4c29;
+  --dark-primary-color: #b3541e;
+  --primary-bg-color: #082032;
+  --secondary-bg-color: #334756;
+  --white: #fff;
+  --secondary-white: #ccd1e4;
+  --black: #000000;
+  --grey: #333;
+  --error-color: #ff0000;
+  --warning-color: #ff7b00;
+  --success-color: #104910;
+  --spacing-1: 0.5rem;
+  --spacing-2: 0.625rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+}
+
+/* Default style reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--white);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-weight: 400;
+  background-color: var(--secondary-bg-color);
+}
+
+.icon-logo {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/* links */
+.logo {
+  cursor: pointer;
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+.logo-title {
+  color: var(--white);
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Search Input */
+input[type="search"] {
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  box-shadow: none;
+  padding: 0.5rem;
+  width: 35rem;
+}
+
+input[type="search"]:focus {
+  outline: none;
+}
+
+/* Main section */
+.main-center {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#home-section {
+  margin-top: 2rem;
+}
+
+.mb-text {
+  margin-bottom: var(--spacing-2);
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem 4rem;
+  color: #fff;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: 1;
+}
+
+.hero-img {
+  object-fit: cover;
+  padding: 0 4rem 4rem 4rem;
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+.info-section {
+  display: flex;
+}
