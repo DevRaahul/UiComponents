@@ -6,47 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./main.css" rel="stylesheet">
+    <link href="./home.css" rel="stylesheet">
     <link rel="icon" href="./assets/icons/icons8-reactos.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/584b448ef4.js" crossorigin="anonymous"></script>
     <title>Components Library</title>
 </head>
 
 <body>
-    <header>
-        <nav id="navbar" class="navbar">
-            <div class="logo">
-                <a href="#">
-                    <h1 class="logo-title text-large">Neon-UI</h1>
-                </a>
+    <div class="menu">
+        <header>
+            <div id="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="search-input">
-                <input type="search" placeholder="Search docs" />
-            </div>
-            <ul class="nav-links">
+            <h3><a href="../index.html" class="body-font-title">NeonUI</a></h3>
+        </header>
+        <!-- side bar menu -->
+        <nav>
+            <ul>
                 <li>
-                    <a>
-                        <span>
-                            <i class="fab fa-github"></i>
-                        </span>
-                    </a>
+                    <h4>Get Started</h4>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../home.html">Installation</a>
                 </li>
                 <li>
-                    <a>
-                        <span>
-                            <i class="fab fa-twitter"></i>
-                        </span>
-                    </a>
+                    <h4>Components</h4>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a>Alerts</a>
                 </li>
                 <li>
-                    <a>
-                        <span>
-                            <i class="fab fa-linkedin-in"></i>
-                        </span>
-                    </a>
+                    <a href="../Avatar/index.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="../Badge/index.html">Badge</a>
+                </li>
+                <li>
+                    <a href="#">Button</a>
+                </li>
+                <li>
+                    <a>Card</a>
+                </li>
+                <li>
+                    <a>Grid</a>
+                </li>
+                <li>
+                    <a href="../Input/index.html">Input</a>
+                </li>
+                <li>
+                    <a href="#">Image</a>
+                </li>
+                <li>
+                    <a href="../List/index.html">List</a>
+                </li>
+                <li>
+                    <a href="../Typography/index.html">Typography</a>
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
     <section id="home-section">
         <div class="home-container">
             <div class="left-section">
@@ -57,8 +80,9 @@
                     Spend less time on designing components.
                 </p>
                 <div class="btn-links">
-                    <a class="btn btn-primary" href="./Typography/index.html">Get Started</a>
-                    <a class="btn btn-secondary" href="#">GitHub</a>
+                    <a class="btn btn-primary" href="./home.html">Documentation</a>
+                    <a class="btn btn-secondary" href="https://github.com/DevRaahul/UiComponents"
+                        target="_blank">GitHub</a>
                 </div>
             </div>
             <div class="right-section">
@@ -66,6 +90,37 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer footer-bottom">
+            <h3>Designed by
+                <span>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    Rahul Bhoir
+                </span>
+            </h3>
+            <p>copyright &copy;2022 Neog.</p>
+        </div>
+    </footer>
+    <script src="./home.js" />
 </body>
 
 </html>
