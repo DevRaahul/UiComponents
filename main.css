@@ -1,20 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 @import url("./Typography/index.css");
 @import url("./utility.css");
 @import url("./Button/index.css");
 
 :root {
-  --primary-color: #ff4c29;
-  --dark-primary-color: #b3541e;
-  --primary-bg-color: #082032;
-  --secondary-bg-color: #334756;
+  --primary-color: #3f51b5;
+  --secondary-color: #ff4081;
+  --dark-primary-color: #283593;
+  --dark-secondary-color: #ad1457;
   --white: #fff;
   --secondary-white: #ccd1e4;
   --black: #000000;
   --grey: #333;
-  --error-color: #ff0000;
-  --warning-color: #ff7b00;
-  --success-color: #104910;
+  --grey-1: #424242;
+  --error-color: #ff5252;
+  --warning-color: #ffab40;
+  --success-color: #4caf50;
   --spacing-1: 0.5rem;
   --spacing-2: 0.625rem;
   --spacing-3: 0.75rem;
@@ -29,9 +30,9 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--primary-bg-color);
-  color: var(--white);
+  font-family: "EB Garamond", serif;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 a {
@@ -41,6 +42,10 @@ a {
 
 a:hover {
   color: var(--secondary-color);
+}
+
+ul > li > a {
+  color: var(--black);
 }
 
 /* Main section */
@@ -56,7 +61,6 @@ a:hover {
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 2rem 4rem;
-  color: #fff;
 }
 
 .left-section {
@@ -72,4 +76,35 @@ a:hover {
   object-fit: cover;
   height: auto;
   width: 100%;
+}
+
+/* footer classes */
+footer {
+  background-color: var(--primary-color);
+  height: auto;
+  width: 100vw;
+  padding-top: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.footer > ul > li {
+  margin: 0 1rem;
 }
