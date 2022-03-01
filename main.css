@@ -2,6 +2,7 @@
 @import url("./Typography/index.css");
 @import url("./utility.css");
 @import url("./Button/index.css");
+@import url("./home.css");
 
 :root {
   --primary-color: #3f51b5;
@@ -107,4 +108,14 @@ footer {
 
 .footer > ul > li {
   margin: 0 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  .home-container {
+    grid-template-columns: 100%;
+    padding: 1rem 2rem;
+  }
+  .right-section {
+    display: none;
+  }
 }
