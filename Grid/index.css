@@ -1,0 +1,18 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+.grid {
+  display: grid;
+}
+
+.two-sections {
+  grid-template-columns: 50% 50%;
+}
+
+.three-sections {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.aside-section {
+  grid-template-columns: 70% 30%;
+}
