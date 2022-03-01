@@ -1,0 +1,12 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+.container {
+  align-items: baseline;
+  border: 2px solid var(--white);
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+}
