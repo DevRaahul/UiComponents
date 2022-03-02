@@ -1,0 +1,137 @@
+@import url("./main.css");
+@import url("./utility.css");
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--secondary-white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+header {
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 2rem;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+header > h3 {
+  margin: 0 20px;
+}
+.hamburger-menu {
+  display: relative;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.hamburger-menu span {
+  width: 2rem;
+  display: block;
+  height: 2px;
+  background-color: var(--secondary-white);
+  margin-bottom: 5px;
+}
+
+nav {
+  box-sizing: border-box;
+  background-color: var(--grey-1);
+  padding: 1.25rem 2rem;
+  padding-top: 5rem;
+  height: 100%;
+  position: absolute;
+  width: 15rem;
+  top: 0;
+  left: -15rem;
+  z-index: 1;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li {
+  margin-bottom: 1rem;
+}
+
+nav > ul > li > h4 {
+  color: var(--primary-color);
+}
+
+nav.open {
+  left: 0;
+}
+
+.hamburger-menu.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(10px);
+}
+.hamburger-menu.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px);
+}
+.hamburger-menu.open span:nth-child(2) {
+  opacity: 0;
+  width: 0;
+}
+
+/* Transitions */
+nav {
+  transition: left ease-in 0.2s;
+}
+
+.hamburger-menu span {
+  transition: all ease-in 0.2s;
+}
+
+.details-container {
+  padding: 2rem 17rem;
+}
+
+.divider {
+  margin: 5px 0;
+}
+
+.color-scheme {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-scheme > div {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-white);
+}
+
+.warn {
+  background-color: var(--warning-color);
+}
+
+.error {
+  background-color: var(--error-color);
+}
+
+.success {
+  background-color: var(--success-color);
+}
+
+@media screen and (max-width: 780px) {
+  .details-container {
+    padding: 1rem;
+  }
+}
