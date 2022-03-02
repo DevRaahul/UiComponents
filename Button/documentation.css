@@ -13,11 +13,8 @@ body {
   background-color: var(--primary-bg-color);
 }
 
-.container {
-  align-items: baseline;
-  border: 2px solid var(--white);
-  border-radius: 0.3rem;
-  display: flex;
-  margin: 2rem;
-  padding: 1rem;
+@media screen and (max-width: 780px) {
+  .container {
+    flex-flow: row wrap;
+  }
 }

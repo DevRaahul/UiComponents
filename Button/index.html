@@ -7,22 +7,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./documentation.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="../assets/icons/icons8-reactos.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <title>Button</title>
+    <title>NeonUI | Button</title>
 </head>
 
 <body>
-    <div class="container">
-        <a class="btn btn-primary">Primary</a>
-        <a class="btn btn-secondary">Secondary</a>
-        <a class="btn btn-outline">Outline-btn</a>
-        <a class="btn btn-outline">
-            <span>
-                <i class="fas fa-shopping-cart"></i>
-            </span>
-            Icon Button
-        </a>
+    <div class="menu">
+        <header>
+            <div id="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h3><a href="../index.html" class="body-font-title">NeonUI</a></h3>
+        </header>
+        <!-- side bar menu -->
+        <nav>
+            <ul>
+                <li>
+                    <h3>Get Started</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../home.html">Installation</a>
+                </li>
+                <li>
+                    <h3>Components</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../Toasters/index.html">Alerts</a>
+                </li>
+                <li>
+                    <a href="../Avatar/index.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="../Badge/index.html">Badge</a>
+                </li>
+                <li>
+                    <a href="#" class="link-active">Button</a>
+                </li>
+                <li>
+                    <a>Card</a>
+                </li>
+                <li>
+                    <a href="../Grid/index.html">Grid</a>
+                </li>
+                <li>
+                    <a href="../Input/index.html">Input</a>
+                </li>
+                <li>
+                    <a href="../Responsive Image/index.html">Image</a>
+                </li>
+                <li>
+                    <a href="../List/index.html">List</a>
+                </li>
+                <li>
+                    <a href="../Typography/index.html">Typography</a>
+                </li>
+            </ul>
+        </nav>
     </div>
+    <div class="details-container">
+        <h1 class="font-prime">Buttons</h1>
+        <p class="body-font">
+            Buttons are key element on web page. We have different types of buttons for different
+            actions and purpose. <br />
+            NeonUI buttons are native <span class="font-prime">&lt;a&gt;</span> elements enhanced with Material Design
+            styling.
+        </p>
+        <p class="body-font-title font-prime"><u>Example of Buttons</u>:</p>
+        <div class="container">
+            <a class="btn btn-primary">Primary</a>
+            <a class="btn btn-secondary">Secondary</a>
+            <a class="btn btn-outline">Outline-btn</a>
+            <a class="btn btn-outline">
+                <span>
+                    <i class="fas fa-shopping-cart"></i>
+                </span>
+                Icon Button
+            </a>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-outline%2522%253EOutline-btn%253C%252Fa%253E%250A%253Ca%2520class%253D%2522btn%2520btn-outline%2522%253E%250A%253Cspan%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250AIcon%2520Button%250A%253C%252Fa%253E"
+                    style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+    <script src="../home.js" />
 </body>
 
 </html>

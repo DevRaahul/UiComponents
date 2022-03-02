@@ -26,21 +26,21 @@
 }
 
 .btn-secondary {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--secondary-color);
   color: var(--white);
 }
 
 .btn-secondary:hover {
-  background-color: var(--secondary-white);
-  color: var(--black);
+  background-color: var(--dark-secondary-color);
+  color: var(--white);
 }
 
 .btn-outline {
   border: 1px solid var(--primary-color);
-  color: var(--white);
+  color: var(--primary-color);
 }
 
 .btn-outline:hover {
   background-color: var(--primary-color);
-  color: var(--black);
+  color: var(--white);
 }
