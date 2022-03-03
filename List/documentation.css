@@ -1,15 +1,6 @@
 @import url("../main.css");
 @import url("../utility.css");
 
-.container {
-  align-items: baseline;
-  border: 2px solid var(--white);
-  border-radius: 0.3rem;
-  display: flex;
-  margin: 2rem;
-  padding: 1rem;
-}
-
 .container > ul {
   margin-left: 1rem;
 }
@@ -21,6 +12,16 @@
 .list {
   margin: 1rem 1rem 1rem 0;
   border-radius: 0.3rem;
-  background-color: var(--grey);
   padding: 1rem 1.5rem 1rem 2rem;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .list {
+    margin: 1rem 0.5rem 1rem 0;
+    padding: 1rem 0.75rem 1rem 1.5rem;
+  }
 }
