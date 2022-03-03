@@ -81,3 +81,12 @@ p {
 .font-prime {
   color: var(--secondary-color);
 }
+
+.code-sandbox {
+  width: 100%;
+  min-height: 250px;
+  max-height: 400px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
