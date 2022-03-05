@@ -1,24 +1,16 @@
 @import url("../main.css");
 @import url("../utility.css");
 
-.container {
-  padding: 1rem;
-  margin: 2rem;
-  border: 2px solid var(--white);
-  border-radius: 0.3rem;
-  color: var(--black);
-}
-
 .grid > div {
-  height: auto;
+  height: 100px;
   width: auto;
   background-color: var(--secondary-white);
   border-radius: 0.3rem;
   text-align: center;
   padding: 1rem;
-  margin-left: 1rem;
+  margin: 1rem 0.5rem;
 }
 
-.grid > div:first-child {
-  margin-left: 0;
+.grid {
+  width: 100%;
 }
