@@ -2,7 +2,7 @@ const burgerIcon = document.getElementById("hamburger");
 const sideNav = document.querySelector("nav");
 const scrollTop = document.getElementById("scrollTop");
 const rootElement = document.documentElement;
-console.log("JS called");
+
 burgerIcon?.addEventListener("click", () => {
   sideNav?.classList.toggle("open");
   burgerIcon?.classList.toggle("open");
@@ -22,7 +22,6 @@ const detectScroll = () => {
 };
 
 scrollTop.addEventListener("click", () => {
-  console.log("click");
   window.scrollTo({
     top: 0,
     behavior: "smooth",
