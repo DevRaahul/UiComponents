@@ -1,16 +1,6 @@
 @import url("../main.css");
 @import url("../utility.css");
 
-.container {
-  align-items: flex-start;
-  border: 2px solid var(--white);
-  border-radius: 0.3rem;
-  display: flex;
-  flex-direction: column;
-  margin: 2rem;
-  padding: 1rem;
-}
-
 .container > div {
   margin: 1rem;
 }
@@ -23,4 +13,8 @@
 
 .input-container > label {
   margin-bottom: 0.5rem;
+}
+
+.input-container > label {
+  font-weight: bold;
 }

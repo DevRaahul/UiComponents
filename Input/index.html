@@ -7,21 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./index.css" rel="stylesheet">
     <link href="./documentation.css" rel="stylesheet">
-    <title>Input</title>
+    <link rel="icon" href="../assets/icons/icons8-reactos.svg">
+    <title>NeonUI | Input</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="input-container">
-            <label for="input_1">Normal Text field: </label>
-            <input id="input_1" name="input_1" type="text" class="input-text" placeholder="Enter text..." />
-        </div>
-        <div class="input-container">
-            <label for="input_2">Error State Text field: </label>
-            <input id="input_2" name="input_2" type="text" class="input-text error-text" placeholder="Enter text..." />
-            <span class="error-msg">This error msgs.</span>
+    <div class="menu">
+        <header>
+            <div id="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h3><a href="../index.html" class="body-font-title">NeonUI</a></h3>
+        </header>
+        <!-- side bar menu -->
+        <nav>
+            <ul>
+                <li>
+                    <h3>Get Started</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../home.html">Installation</a>
+                </li>
+                <li>
+                    <h3>Components</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../Toasters/index.html">Alerts</a>
+                </li>
+                <li>
+                    <a href="../Avatar/index.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="../Badge/index.html">Badge</a>
+                </li>
+                <li>
+                    <a href="../Button/index.html">Button</a>
+                </li>
+                <li>
+                    <a>Card</a>
+                </li>
+                <li>
+                    <a href="../Grid/index.html">Grid</a>
+                </li>
+                <li>
+                    <a href="#" class="link-active">Input</a>
+                </li>
+                <li>
+                    <a href="../Responsive Image/index.html">Image</a>
+                </li>
+                <li>
+                    <a href="../List/index.html">List</a>
+                </li>
+                <li>
+                    <a href="../Typography/index.html">Typography</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="details-container">
+        <h1 class="font-prime">Input:</h1>
+        <p class="body-font">
+            Inputs are key element on web page, as they help use to get data from user to system.<br />
+            Input can be used with form.
+        </p>
+        <p class="body-font-title font-prime"><u>Example of Input:</u></p>
+        <div class="container">
+            <div class="input-container">
+                <label for="input_1">Normal Text field:</label>
+                <input id="input_1" name="input_1" type="text" class="input-text" placeholder="Enter text..." />
+            </div>
+            <div class="input-container">
+                <label for="input_2">Error State Text field: </label>
+                <input id="input_2" name="input_2" type="text" class="input-text error-text"
+                    placeholder="Enter text..." />
+                <span class="error-msg">This error msgs.</span>
+            </div>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2509%253Clabel%2520for%253D%2522input_1%2522%253ENormal%2520Text%2520field%253A%2520%253C%252Flabel%253E%250A%2509%253Cinput%2520id%253D%2522input_1%2522%2520name%253D%2522input_1%2522%2520type%253D%2522text%2522%2520class%253D%2522input-text%2522%2520placeholder%253D%2522Enter%2520text...%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2509%253Clabel%2520for%253D%2522input_2%2522%253EError%2520State%2520Text%2520field%253A%2520%253C%252Flabel%253E%250A%2509%253Cinput%2520id%253D%2522input_2%2522%2520name%253D%2522input_2%2522%2520type%253D%2522text%2522%2520class%253D%2522input-text%2520error-text%2522%250A%2509placeholder%253D%2522Enter%2520text...%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522error-msg%2522%253EThis%2520error%2520msgs.%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
         </div>
     </div>
+
+    <script src="../home.js" />
 </body>
 
 </html>
