@@ -1,13 +1,6 @@
 @import url("../main.css");
 @import url("../utility.css");
 
-.container {
-  align-items: baseline;
-  border: 2px solid var(--white);
-  border-radius: 0.3rem;
-  display: flex;
-  margin: 2rem;
-  padding: 1rem;
-  justify-content: space-evenly;
-  align-items: center;
+.img-grid > img {
+  margin: 0 1rem;
 }
