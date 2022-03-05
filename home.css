@@ -47,7 +47,7 @@ nav {
   padding: 1.25rem 2rem;
   padding-top: 5rem;
   height: 100%;
-  position: absolute;
+  position: fixed;
   width: 15rem;
   top: 0;
   left: -15rem;
@@ -83,6 +83,10 @@ nav.open {
 .hamburger-menu.open span:nth-child(2) {
   opacity: 0;
   width: 0;
+}
+
+.hamburger-menu.open {
+  position: fixed;
 }
 
 /* Transitions */
