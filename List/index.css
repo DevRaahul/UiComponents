@@ -36,3 +36,8 @@ ol > li:not(:last-child) {
 .upper-alphabet-list {
   list-style-type: upper-alpha;
 }
+
+.color {
+  background-color: var(--grey-1);
+  color: var(--white);
+}
