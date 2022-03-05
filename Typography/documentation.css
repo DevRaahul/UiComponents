@@ -1,21 +1,9 @@
 @import url("../main.css");
 @import url("../utility.css");
+@import url("../home.css");
 
-#typography {
-  padding: 2rem;
-}
-.center-div {
-  text-align: center;
-  margin-top: var(--spacing-4);
-}
-
-.typo-container {
-  align-items: baseline;
-  border: 2px solid var(--white);
-  border-radius: 00.3rem;
-  display: flex;
-  flex-wrap: wrap;
+.container {
   flex-direction: column;
-  margin: 2rem 0;
-  padding: 1rem;
+  align-items: center;
+  justify-content: flex-start;
 }
