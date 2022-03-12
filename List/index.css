@@ -1,0 +1,43 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+ul > li:not(:last-child) {
+  margin-bottom: var(--spacing-1);
+}
+
+ol > li:not(:last-child) {
+  margin-bottom: var(--spacing-1);
+}
+
+.square-list {
+  list-style-type: square;
+}
+
+.radio-list {
+  list-style-type: circle;
+}
+
+.upper-roamn-list {
+  list-style-type: upper-roman;
+}
+
+.roamn-list {
+  list-style-type: lower-roman;
+}
+
+.number-list {
+  list-style-type: decimal;
+}
+
+.lower-alphabet-list {
+  list-style-type: lower-alpha;
+}
+
+.upper-alphabet-list {
+  list-style-type: upper-alpha;
+}
+
+.color {
+  background-color: var(--grey-1);
+  color: var(--white);
+}

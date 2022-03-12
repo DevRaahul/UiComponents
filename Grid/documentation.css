@@ -1,0 +1,16 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+.grid > div {
+  height: 100px;
+  width: auto;
+  background-color: var(--secondary-white);
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+}
+
+.grid {
+  width: 100%;
+}

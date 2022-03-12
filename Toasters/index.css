@@ -1,0 +1,30 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+.toaster {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.toaster-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.success-toaster {
+  background-color: #8bdb81;
+  color: #1c7947;
+}
+
+.danger-toaster {
+  background-color: #ff4646;
+  color: #91091e;
+}
+
+.warning-toaster {
+  background-color: #ff9f45;
+  color: #91091e;
+}

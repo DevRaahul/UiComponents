@@ -1,0 +1,31 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.avatar-lg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar-md {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.avatar-sm {
+  width: 5rem;
+  height: 5rem;
+}

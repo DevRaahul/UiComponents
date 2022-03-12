@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <link href="./documentation.css" rel="stylesheet">
+    <link rel="icon" href="../assets/icons/icons8-reactos.svg">
+    <title>NeonUI | List</title>
+</head>
+
+<body>
+    <div class="menu">
+        <header>
+            <div id="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h3><a href="../index.html" class="body-font-title">NeonUI</a></h3>
+        </header>
+        <!-- side bar menu -->
+        <nav>
+            <ul>
+                <li>
+                    <h3>Get Started</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../home.html">Installation</a>
+                </li>
+                <li>
+                    <h3>Components</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../Toasters/index.html">Alerts</a>
+                </li>
+                <li>
+                    <a href="../Avatar/index.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="../Badge/index.html">Badge</a>
+                </li>
+                <li>
+                    <a href="../Button/index.html">Button</a>
+                </li>
+                <li>
+                    <a>Card</a>
+                </li>
+                <li>
+                    <a href="../Grid/index.html">Grid</a>
+                </li>
+                <li>
+                    <a href="../Input/index.html">Input</a>
+                </li>
+                <li>
+                    <a href="../Responsive Image/index.html">Image</a>
+                </li>
+                <li>
+                    <a href="#" class="link-active">List</a>
+                </li>
+                <li>
+                    <a href="../Typography/index.html">Typography</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="details-container">
+        <h1 class="font-prime">Lists:</h1>
+        <p class="body-font">
+            List is a container component that wraps and formats a series of line items. There are different type of
+            list available in NeonUI. <br />
+            You can select different style by adding different class name.
+        </p>
+        <p class="body-font"><b class="font-prime">Note:</b> Modify <span class="font-prime"><u><b>color</b></u></span>
+            class to change background color and font-color of list.</p>
+        <p class="body-font-title font-prime"><u>Example of List:</u></p>
+        <p class="body-font-title font-prime">1. Unordered List:</p>
+        <div class="container">
+            <ul class="list color default-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+
+            <ul class="list color square-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+
+            <ul class="list color radio-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Default%2520List%2520--%253E%250A%253Cul%2520class%253D%2522list%2520default-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%21--%2520Square%2520List%2520--%253E%250A%253Cul%2520class%253D%2522list%2520square-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%21--%2520Radio%2520List%2520--%253E%250A%253Cul%2520class%253D%2522list%2520radio-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <p class="body-font-title font-prime">2. Ordered List:</p>
+        <p class="body-font-title"></p>
+        <div class="container">
+            <ol class="list roamn-list color">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+
+            <ol class="list upper-roamn-list color">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+
+            <ol class="list number-list color">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+
+            <ol class="list lower-alphabet-list color">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+
+            <ol class="list upper-alphabet-list color">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Lower%2520case%2520roman%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520roamn-list%2520color%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520Capital%2520case%2520roman%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520upper-roamn-list%2520color%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520Numbered%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520lower-alphabet-list%2520color%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520Lower%2520alphabet%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520lower-alphabet-list%2520color%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520Capital%2520alphabet%2520List%2520--%253E%250A%253Col%2520class%253D%2522list%2520upper-alphabet-list%2520color%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E"
+                class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+    <script src="../home.js" />
+</body>
+
+</html>

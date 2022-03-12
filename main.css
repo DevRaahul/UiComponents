@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("./Typography/index.css");
+@import url("./utility.css");
+@import url("./Button/index.css");
+@import url("./home.css");
+
+:root {
+  --primary-color: #3f51b5;
+  --secondary-color: #ff4081;
+  --dark-primary-color: #283593;
+  --dark-secondary-color: #ad1457;
+  --white: #fff;
+  --secondary-white: #ccd1e4;
+  --black: #000000;
+  --grey: #333;
+  --grey-1: #424242;
+  --error-color: #ff5252;
+  --warning-color: #ffab40;
+  --success-color: #4caf50;
+  --spacing-1: 0.5rem;
+  --spacing-2: 0.625rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+}
+
+/* Default style reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+ul > li > a {
+  color: var(--black);
+}
+
+/* Main section */
+#home-section {
+  margin-top: 2rem;
+}
+
+.mb-text {
+  margin-bottom: var(--spacing-2);
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem 4rem;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: 1;
+}
+
+.hero-img {
+  object-fit: cover;
+  padding: 0 4rem 4rem 4rem;
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+/* footer classes */
+footer {
+  background-color: var(--primary-color);
+  height: auto;
+  width: 100vw;
+  padding-top: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.footer > ul > li {
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  .home-container {
+    grid-template-columns: 100%;
+    padding: 1rem 2rem;
+  }
+  .right-section {
+    display: none;
+  }
+}

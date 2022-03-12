@@ -1,0 +1,6 @@
+@import url("../main.css");
+@import url("../utility.css");
+
+.img-grid > img {
+  margin: 0 1rem;
+}
