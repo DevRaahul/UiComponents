@@ -2,25 +2,24 @@
 @import url("../utility.css");
 @import url("../Typography/index.css");
 @import url("../Button/index.css");
+@import url("../Badge/index.css");
 
 .card {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   background: transparent;
-  max-width: 18.75rem;
+  max-width: 18rem;
   width: auto;
-  border: 1px solid var(--white);
+  box-shadow: 0px 2px 1px -1px var(--grey-2), 0px 1px 1px 0px var(--grey-2), 0px 1px 3px 0px var(--grey-2);
 }
 
 .card-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 15.75rem;
-  padding: 1rem 1rem;
-  background: transparent;
+  height: 15rem;
+  padding: 1rem;
 }
 
 .card-body {
@@ -29,7 +28,6 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--white);
-  color: var(--black);
 }
 
 .card-description {
@@ -49,11 +47,9 @@
 .horizontal-card {
   display: flex;
   overflow: hidden;
-  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   background: transparent;
-  max-width: 43.75rem;
-  width: 100%;
-  border: 1px solid var(--white);
+  max-width: 40rem;
+  box-shadow: 0px 2px 1px -1px var(--grey-2), 0px 1px 1px 0px var(--grey-2), 0px 1px 3px 0px var(--grey-2);
 }
 
 .horizontal-card-img {
@@ -62,6 +58,7 @@
   justify-content: center;
   height: 15.75rem;
   background: transparent;
+  padding: 1rem;
 }
 
 .horizontal-card-body {
@@ -70,7 +67,6 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--white);
-  color: var(--black);
   width: 100%;
 }
 
@@ -78,5 +74,30 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.text-card {
+  background-color: var(--ternary-white);
+  word-wrap: break-word;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px var(--grey-2), 0px 1px 1px 0px var(--grey-2), 0px 1px 3px 0px var(--grey-2);
+}
+
+.card-width {
+  width: 25rem;
+}
+.badge-text {
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  margin-left: 0.2rem;
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  background-color: var(--secondary-color);
 }

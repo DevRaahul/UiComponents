@@ -1,16 +1,2 @@
 @import url("../main.css");
 @import url("../utility.css");
-
-.cards-container {
-  align-items: baseline;
-  border: 1px solid var(--white);
-  border-radius: 0.3rem;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2rem;
-  padding: 1rem;
-}
-
-.cards-container > div {
-  margin: 0 1rem;
-}
