@@ -42,7 +42,7 @@ header > h3 {
 
 nav {
   box-sizing: border-box;
-  background-color: var(--grey-1);
+  background-color: var(--ternary-white);
   padding: 1.25rem 2rem;
   padding-top: 5rem;
   height: 100%;
@@ -66,7 +66,7 @@ nav > ul > li > h3 {
 }
 
 nav > ul > li > a {
-  color: var(--white);
+  color: var(--black);
 }
 
 nav.open {
