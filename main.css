@@ -122,3 +122,27 @@ footer {
     display: none;
   }
 }
+
+/* Btn Scroll top */
+.btn-scrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  color: var(--white);
+  outline: none;
+  box-shadow: 0 0 10px var(--grey);
+  height: 50px;
+  width: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
