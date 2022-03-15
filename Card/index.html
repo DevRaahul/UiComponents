@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <link href="./documentation.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>NeonUI | Cards</title>
+</head>
+
+<body>
+    <div class="menu">
+        <header>
+            <div id="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h3><a href="../index.html" class="body-font-title">NeonUI</a></h3>
+        </header>
+        <!-- side bar menu -->
+        <nav>
+            <ul>
+                <li>
+                    <h3>Get Started</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../home.html">Installation</a>
+                </li>
+                <li>
+                    <h3>Components</h3>
+                </li>
+                <hr class="divider">
+                <li>
+                    <a href="../Toasters/index.html">Alerts</a>
+                </li>
+                <li>
+                    <a href="../Avatar/index.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="../Badge/index.html">Badge</a>
+                </li>
+                <li>
+                    <a href="#" class="link-active">Button</a>
+                </li>
+                <li>
+                    <a href="#">Card</a>
+                </li>
+                <li>
+                    <a href="../Grid/index.html">Grid</a>
+                </li>
+                <li>
+                    <a href="../Input/index.html">Input</a>
+                </li>
+                <li>
+                    <a href="../Responsive Image/index.html">Image</a>
+                </li>
+                <li>
+                    <a href="../List/index.html">List</a>
+                </li>
+                <li>
+                    <a href="../Typography/index.html">Typography</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="details-container">
+        <h1 class="font-prime">Cards</h1>
+        <p class="body-font">
+            Cards contain content and actions about a single subject.
+            <br />
+            <span class="font-prime">Note: </span>Text cards have class <span class="font-prime">"card-width"</span>
+            which let you to change text card width.
+        </p>
+        <p class="body-font-title font-prime"><u>Example of Cards</u>:</p>
+        <h3 class="font-prime">1. Card with Action Button:</h3>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <img loading="lazy" class="card-img" src="../assets/images/card1.jpeg" alt="card-image" />
+                </div>
+                <div class="card-body">
+                    <div class="card-description">
+                        <p class="text-medium">Black Shirt</p>
+                        <p class="text-small">Rs. 999/- </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522card-img%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard1.jpeg%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2509%2509%253Cp%2520class%253D%2522text-medium%2522%253EBlack%2520Shirt%253C%252Fp%253E%250A%2509%2509%253Cp%2520class%253D%2522text-small%2522%253ERs.%2520999%252F-%2520%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <h3 class="font-prime">2. Card with Badge:</h3>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <img loading="lazy" class="card-img" src="../assets/images/card1.jpeg" alt="card-image" />
+                </div>
+                <div class="card-body">
+                    <div class="card-description">
+                        <p class="text-medium badge-text">Black Shirt <span class="badge">New</span></p>
+                        <p class="text-small">Rs. 999/- </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522card-img%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard1.jpeg%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2509%2509%253Cp%2520class%253D%2522text-medium%2522%253EBlack%2520Shirt%253C%252Fp%253E%250A%2509%2509%253Cp%2520class%253D%2522text-small%2522%253ERs.%2520999%252F-%2520%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <h3 class="font-prime">3. Card with Icon Buttons:</h3>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <img loading="lazy" class="card-img" src="../assets/images/card1.jpeg" alt="card-image" />
+                </div>
+                <div class="card-body">
+                    <div class="card-description">
+                        <p class="text-medium">Black Shirt</p>
+                        <p class="text-small">Rs. 999/- </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn btn-primary">
+                            <span>
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                        </a>
+                        <a class="btn btn-primary">
+                            <span>
+                                <i class="fas fa-heart"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522card-img%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard1.jpeg%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522text-medium%2522%253EBlack%2520Shirt%253C%252Fp%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522text-small%2522%253ERs.%2520999%252F-%2520%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2509%253C%252Fa%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <h3 class="font-prime">4. Horizontal Card with Action Button:</h3>
+        <div class="container">
+            <div class="horizontal-card">
+                <div class="card-header">
+                    <img loading="lazy" class="horizontal-card-img" src="../assets/images/card1.jpeg"
+                        alt="card-image" />
+                </div>
+                <div class="horizontal-card-body">
+                    <div class="card-description">
+                        <p class="text-medium">Black Shirt</p>
+                        <p class="text-small">₹999/- &nbsp;<del>₹1999/- </del> </p>
+                        <p class="text-small text-600">50% off</p>
+                    </div>
+                    <div class="horizontal-card-action">
+                        <a class="btn btn-primary">
+                            Add to Cart
+                        </a>
+                        <a class="btn btn-secondary">
+                            Save to wishlist
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%253Cimg%2520loading%253D%2522lazy%2522%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard1.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522horizontal-card-body%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522text-medium%2522%253EBlack%2520Shirt%253C%252Fp%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522text-small%2522%253E%25E2%2582%25B9999%252F-%2520%2526nbsp%253B%253Cdel%253E%25E2%2582%25B91999%252F-%2520%253C%252Fdel%253E%2520%253C%252Fp%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522text-small%2520text-600%2522%253E50%2525%2520off%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522horizontal-card-action%2522%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520Cart%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522btn%2520btn-secondary%2522%253ESave%2520to%2520wishlist%253C%252Fa%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <h3 class="font-prime">5. Text Card :</h3>
+        <div class="container">
+            <div class="text-card card-width">
+                <p class="card-text-content">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse aut molestias corporis reiciendis
+                    veniam
+                    nostrum dicta amet cumque! Corporis, incidunt.<br />
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse aut molestias corporis reiciendis
+                    veniam
+                    nostrum dicta amet cumque! Corporis, incidunt.
+                </p>
+            </div>
+            <div class="code-snipet-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2851%2C71%2C86%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-card%2520card-width%2522%253E%250A%2509%253Cp%2520class%253D%2522card-text-content%2522%253E%250A%2509Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Esse%2520aut%2520molestias%2520corporis%2520%2509%2509%2509%2509reiciendisveniam%2520nostrum%2520dicta%2520amet%2520cumque%21%2520Corporis%252C%2520incidunt.%250A%2509%253Cbr%2520%252F%253E%250A%2509Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Esse%2520aut%2520molestias%2520corporis%2520reiciendis%250A%2509veniamnostrum%2520dicta%2520amet%2520cumque%21%2520Corporis%252C%2520incidunt.%250A%2509%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    class="code-sandbox" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <button id="scrollTop" class="btn-scrollTop hide">
+        Scroll Top
+    </button>
+    <script src="../home.js" />
+</body>
+
+</html>
